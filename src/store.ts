@@ -10,9 +10,6 @@ export class GameManager {
     private games: Games[] = [];
 
     private constructor(){
-        if(!GameManager.instance)
-            GameManager.instance = new GameManager();
-        
     }
 
     public static getInstance():GameManager{

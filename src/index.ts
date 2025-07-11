@@ -5,9 +5,9 @@ startLogger();
 
 setInterval(() => {
     GameManager.getInstance().addGame({
-        gameId: Math.random().toString(),
+        "gameId": Math.random().toString(),
         "whitePlayer": "harkirat",
         "blackPlayer": "jaskirat",
-        moves: []
+        "moves": []
     })
 }, 5000);
